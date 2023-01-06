@@ -1,0 +1,23 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.container {
+  display: grid;
+  border-radius: 5px;
+  grid-template-columns: 35fr 65fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: var(--accordian-width);
+  margin: 5rem auto;
+  background-color: var(--Accordian-color);
+}
+
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

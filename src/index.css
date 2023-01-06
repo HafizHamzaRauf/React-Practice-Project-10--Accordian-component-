@@ -1,0 +1,23 @@
+:root {
+  --background-color: #4b145b;
+  --Accordian-color: white;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --accordian-width: 90rem;
+  --secondary-text: 1.6rem;
+  --button-background-color: rgb(238, 236, 236);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
